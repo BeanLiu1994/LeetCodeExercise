@@ -110,7 +110,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="IntergerReverse.cpp" />
+    <ClCompile Include="IntergerToRoman.cpp" />
     <ClCompile Include="LongestPalindrome.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaxLengthOfSubString.cpp" />
@@ -121,7 +123,9 @@
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="IntergerReverse.h" />
+    <ClInclude Include="IntergerToRoman.h" />
     <ClInclude Include="LongestPalindrome.h" />
     <ClInclude Include="MaxLengthOfSubString.h" />
     <ClInclude Include="PalindromeNumber.h" />

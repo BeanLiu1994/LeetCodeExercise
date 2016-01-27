@@ -113,11 +113,13 @@
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="IntergerReverse.cpp" />
     <ClCompile Include="IntergerToRoman.cpp" />
+    <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestPalindrome.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaxLengthOfSubString.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
+    <ClCompile Include="RomanToInteger.cpp" />
     <ClCompile Include="StringToInterger.cpp" />
     <ClCompile Include="StringToIntergerTry2.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
@@ -126,10 +128,12 @@
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="IntergerReverse.h" />
     <ClInclude Include="IntergerToRoman.h" />
+    <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindrome.h" />
     <ClInclude Include="MaxLengthOfSubString.h" />
     <ClInclude Include="PalindromeNumber.h" />
     <ClInclude Include="RegularExpressionMatching.h" />
+    <ClInclude Include="RomanToInteger.h" />
     <ClInclude Include="Solution.h" />
     <ClInclude Include="StringToInterger.h" />
     <ClInclude Include="StringToIntergerTry2.h" />

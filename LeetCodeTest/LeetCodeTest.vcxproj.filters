@@ -48,6 +48,12 @@
     <ClCompile Include="ContainerWithMostWater.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="RomanToInteger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestCommonPrefix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MaxLengthOfSubString.h">
@@ -81,6 +87,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ContainerWithMostWater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RomanToInteger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestCommonPrefix.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

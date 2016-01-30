@@ -1,10 +1,10 @@
 #include "Solution.h"
-#include "LongestCommonPrefix.h"
+#include "ThreeSum.h"
 
 
 int main()
 {
-	Solution &a = LongestCommonPrefix();
+	Solution &a = ThreeSum();
 	a.Process();
 	getchar();
 	return 0;

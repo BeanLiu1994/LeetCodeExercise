@@ -123,6 +123,7 @@
     <ClCompile Include="StringToInterger.cpp" />
     <ClCompile Include="StringToIntergerTry2.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
+    <ClCompile Include="ThreeSumClosest.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +140,7 @@
     <ClInclude Include="StringToInterger.h" />
     <ClInclude Include="StringToIntergerTry2.h" />
     <ClInclude Include="ThreeSum.h" />
+    <ClInclude Include="ThreeSumClosest.h" />
     <ClInclude Include="ZigZagConversion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

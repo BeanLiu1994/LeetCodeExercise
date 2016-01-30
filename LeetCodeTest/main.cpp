@@ -1,10 +1,10 @@
 #include "Solution.h"
-#include "ThreeSum.h"
+#include "ThreeSumClosest.h"
 
 
 int main()
 {
-	Solution &a = ThreeSum();
+	Solution &a = ThreeSumClosest();
 	a.Process();
 	getchar();
 	return 0;

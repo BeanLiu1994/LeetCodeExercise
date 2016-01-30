@@ -57,6 +57,9 @@
     <ClCompile Include="ThreeSum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ThreeSumClosest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MaxLengthOfSubString.h">
@@ -99,6 +102,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ThreeSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeSumClosest.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

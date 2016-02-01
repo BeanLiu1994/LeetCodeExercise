@@ -3,6 +3,6 @@
 class ThreeSum :public Solution
 {
 public:
-	void Process();
+	virtual void Process();
 	vector<vector<int>> threeSum(vector<int>& nums);
 };

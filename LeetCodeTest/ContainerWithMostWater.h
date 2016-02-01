@@ -4,6 +4,6 @@
 class ContainerWithMostWater :public Solution
 {
 public:
-	void Process();
+	virtual void Process();
 	int maxArea(vector<int>& height);
 };

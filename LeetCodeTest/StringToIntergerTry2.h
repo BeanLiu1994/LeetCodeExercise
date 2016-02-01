@@ -4,7 +4,7 @@
 class StringToIntergerTry2 :public Solution
 {
 public:
-	void Process();
+	virtual void Process();
 	int myAtoi(string str);
 	int SolveByCore(string str);
 };

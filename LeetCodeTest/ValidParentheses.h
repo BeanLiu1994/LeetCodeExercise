@@ -1,9 +1,8 @@
 #pragma once
 #include "Solution.h"
-
-class PalindromeNumber :public Solution
+class ValidParentheses :public Solution
 {
 public:
 	virtual void Process();
-	bool isPalindrome(int x);
+	bool isValid(string s);
 };

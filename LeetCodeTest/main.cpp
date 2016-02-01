@@ -1,10 +1,10 @@
 #include "Solution.h"
-#include "ThreeSumClosest.h"
+#include "MergeTwoSortedLists.h"
 
 
 int main()
 {
-	Solution &a = ThreeSumClosest();
+	Solution &a = MergeTwoSortedLists();
 	a.Process();
 	getchar();
 	return 0;

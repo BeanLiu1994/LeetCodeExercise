@@ -4,6 +4,6 @@
 class RomanToInteger :public Solution
 {
 public:
-	void Process();
+	virtual void Process();
 	int romanToInt(string s);
 };

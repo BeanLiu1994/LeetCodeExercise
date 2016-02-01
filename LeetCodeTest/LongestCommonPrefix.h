@@ -4,6 +4,6 @@
 class LongestCommonPrefix :public Solution
 {
 public:
-	void Process();
+	virtual void Process();
 	string longestCommonPrefix(vector<string>& strs);
 };

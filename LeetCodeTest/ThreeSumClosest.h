@@ -4,7 +4,7 @@
 class ThreeSumClosest :public Solution
 {
 public:
-	void Process();
+	virtual void Process();
 	int threeSumClosest(vector<int>& nums, int target);
 	bool threeSumExists(vector<int>& nums, int sum);
 };

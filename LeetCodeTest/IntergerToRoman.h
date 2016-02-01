@@ -4,7 +4,7 @@
 class IntergerToRoman :public Solution
 {
 public :
-	void Process();
+	virtual void Process();
 	string intToRoman(int num);
 	string IntergerToRoman_OneNumber(int& num, string& charset);
 };

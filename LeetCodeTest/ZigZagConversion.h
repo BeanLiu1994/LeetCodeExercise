@@ -4,6 +4,6 @@
 class ZigZagConversion:public Solution
 {
 public:
-	void Process();
+	virtual void Process();
 	string convert(string s, int numRows);
 };

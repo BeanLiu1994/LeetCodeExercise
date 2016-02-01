@@ -5,6 +5,6 @@
 class IntergerReverse :public Solution
 {
 public:
-	void Process();
+	virtual void Process();
 	int reverse(int x);
 };

@@ -5,6 +5,6 @@ class MaxLengthOfSubString:public Solution
 {
 public:
 	int IsOc[256];
-	void Process();
+	virtual void Process();
 	int lengthOfLongestSubstring(string s);
 };

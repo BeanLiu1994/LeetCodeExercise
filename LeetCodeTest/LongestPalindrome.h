@@ -4,6 +4,6 @@
 class LongestPalindrome :public Solution
 {
 public:
-	void Process();
+	virtual void Process();
 	string longestPalindrome(string s);
 };

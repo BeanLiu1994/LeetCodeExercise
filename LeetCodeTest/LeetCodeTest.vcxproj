@@ -113,34 +113,42 @@
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="IntergerReverse.cpp" />
     <ClCompile Include="IntergerToRoman.cpp" />
+    <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestPalindrome.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaxLengthOfSubString.cpp" />
+    <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
+    <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="RomanToInteger.cpp" />
     <ClCompile Include="StringToInterger.cpp" />
     <ClCompile Include="StringToIntergerTry2.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="ThreeSumClosest.cpp" />
+    <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="IntergerReverse.h" />
     <ClInclude Include="IntergerToRoman.h" />
+    <ClInclude Include="LetterCombinationsofaPhoneNumber.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindrome.h" />
     <ClInclude Include="MaxLengthOfSubString.h" />
+    <ClInclude Include="MergeTwoSortedLists.h" />
     <ClInclude Include="PalindromeNumber.h" />
     <ClInclude Include="RegularExpressionMatching.h" />
+    <ClInclude Include="RemoveNthNodeFromEndofList.h" />
     <ClInclude Include="RomanToInteger.h" />
     <ClInclude Include="Solution.h" />
     <ClInclude Include="StringToInterger.h" />
     <ClInclude Include="StringToIntergerTry2.h" />
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="ThreeSumClosest.h" />
+    <ClInclude Include="ValidParentheses.h" />
     <ClInclude Include="ZigZagConversion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

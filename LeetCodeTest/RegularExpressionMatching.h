@@ -3,6 +3,6 @@
 class RegularExpressionMatching :public Solution
 {
 public:
-	void Process();
+	virtual void Process();
 	bool isMatch(string s, string p);
 };

@@ -72,6 +72,12 @@
     <ClCompile Include="MergeTwoSortedLists.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveDuplicatesfromSortedArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MaxLengthOfSubString.h">
@@ -129,6 +135,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MergeTwoSortedLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveDuplicatesfromSortedArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveElement.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

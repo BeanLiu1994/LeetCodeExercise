@@ -1,10 +1,10 @@
 #include "Solution.h"
-#include "MergeTwoSortedLists.h"
+#include "RemoveElement.h"
 
 
 int main()
 {
-	Solution &a = MergeTwoSortedLists();
+	Solution &a = RemoveElement();
 	a.Process();
 	getchar();
 	return 0;

@@ -75,7 +75,7 @@ public:
 	}
 	int RunAllSeg()
 	{
-		for (int i = 0; i < TestSegContainer.size(); ++i)
+		for (size_t i = 0; i < TestSegContainer.size(); ++i)
 		{
 			if (RunSegAt(i))
 			{

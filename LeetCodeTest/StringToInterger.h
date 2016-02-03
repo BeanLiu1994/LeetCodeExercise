@@ -14,6 +14,7 @@ class StringToInterger :public Solution
 {
 public :
 	virtual void Process();
+	virtual string GetName() { return "StringToInterger"; }
 	int myAtoi(string str);
 	int result_after_check(symbol* sp, long long result);
 };

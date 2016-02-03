@@ -111,6 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ContainerWithMostWater.cpp" />
+    <ClCompile Include="ImplementstrStr.cpp" />
     <ClCompile Include="IntergerReverse.cpp" />
     <ClCompile Include="IntergerToRoman.cpp" />
     <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp" />
@@ -127,6 +128,9 @@
     <ClCompile Include="RomanToInteger.cpp" />
     <ClCompile Include="StringToInterger.cpp" />
     <ClCompile Include="StringToIntergerTry2.cpp" />
+    <ClCompile Include="test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="ThreeSumClosest.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
@@ -134,11 +138,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ContainerWithMostWater.h" />
+    <ClInclude Include="ImplementstrStr.h" />
     <ClInclude Include="IntergerReverse.h" />
     <ClInclude Include="IntergerToRoman.h" />
     <ClInclude Include="LetterCombinationsofaPhoneNumber.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindrome.h" />
+    <ClInclude Include="TestSeg.h" />
     <ClInclude Include="MaxLengthOfSubString.h" />
     <ClInclude Include="MergeTwoSortedLists.h" />
     <ClInclude Include="PalindromeNumber.h" />

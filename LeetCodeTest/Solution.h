@@ -12,4 +12,5 @@ class Solution
 {
 public :
 	virtual void Process() = 0;
+	virtual string GetName() { return ""; }
 };

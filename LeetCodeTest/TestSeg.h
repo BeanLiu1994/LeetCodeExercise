@@ -1,6 +1,8 @@
 #pragma once
 #include "Solution.h"
 #include <assert.h>
+#include <conio.h>
+//#include <windows.h>
 //ÉèÖÃ²ÎÊý
 #define TESTSEG_ARGC 1
 #define TESTSEG_ARGV { "this_program" }
@@ -19,9 +21,9 @@ private:
 	{
 		return this->main();
 	}
-	virtual int main() 
+	virtual int main()
 	{
-		return 0; 
+		return 0;
 	}
 };
 
@@ -31,10 +33,10 @@ private:
 	vector<Solution*> TestSegContainer;
 	bool DeleteContainerMemory;
 public:
-	TestCasesManager(bool _DeleteContainerMemory=false) :DeleteContainerMemory(_DeleteContainerMemory){}
+	TestCasesManager(bool _DeleteContainerMemory = false) :DeleteContainerMemory(_DeleteContainerMemory) {}
 	~TestCasesManager()
 	{
-		if(DeleteContainerMemory)
+		if (DeleteContainerMemory)
 			for (auto& iter : TestSegContainer)
 			{
 				delete iter;
@@ -75,21 +77,32 @@ public:
 	}
 	int RunAllSeg()
 	{
-		for (size_t i = 0; i < TestSegContainer.size(); ++i)
+		size_t sizeOfContainer = TestSegContainer.size();
+		for (size_t i = 0; i < sizeOfContainer; ++i)
 		{
 			if (RunSegAt(i))
 			{
-				cout << "info: Index of this Seg in Container is : "<<i<< endl;
+				cout << "info: Index of this Seg in Container is : " << i << endl;
 			}
+			if (i < sizeOfContainer - 1)
+				intervalBehavior();
 		}
 		return 0;
 	}
+	void intervalBehavior()
+	{
+		cout << "Press Any Key..." << endl;
+		_getch();
+		cout << endl;
+		//Sleep(200);
+		//getchar();
+	}
 	int RunSegAt(int index)
 	{
-		try{
-			cout << "[=  Running Test: " << TestSegContainer[index]->GetName() << " =]" << endl;	
+		try {
+			cout << "[=  Running Test: " << TestSegContainer[index]->GetName() << " =]" << endl;
 			TestSegContainer[index]->Process();
-			cout << "[=  END  =]"<< endl;
+			cout << "[=  END =]" << endl;
 			return 0;
 		}
 		catch (exception e) { cout << e.what() << endl; return 1; }

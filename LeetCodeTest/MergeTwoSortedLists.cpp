@@ -19,7 +19,6 @@ void MergeTwoSortedLists::Process()
 	{
 		cout << p->val << endl;
 	}
-	getchar();
 }
 ListNode* MergeTwoSortedLists::mergeTwoLists(ListNode* l1, ListNode* l2)
 {

@@ -142,6 +142,7 @@
     <ClInclude Include="IntergerReverse.h" />
     <ClInclude Include="IntergerToRoman.h" />
     <ClInclude Include="LetterCombinationsofaPhoneNumber.h" />
+    <ClInclude Include="ListNode.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindrome.h" />
     <ClInclude Include="TestSeg.h" />

@@ -19,7 +19,6 @@ void RemoveNthNodeFromEndofList::Process()
 	{
 		cout << p->val << endl;
 	}
-	getchar();
 }
 ListNode* RemoveNthNodeFromEndofList::removeNthFromEnd(ListNode* head, int n)
 {

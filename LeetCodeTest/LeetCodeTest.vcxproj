@@ -145,6 +145,7 @@
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindrome.h" />
+    <ClInclude Include="test.h" />
     <ClInclude Include="TestSeg.h" />
     <ClInclude Include="MaxLengthOfSubString.h" />
     <ClInclude Include="MergeTwoSortedLists.h" />

@@ -126,6 +126,7 @@
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="RomanToInteger.cpp" />
+    <ClCompile Include="SearchforaRange.cpp" />
     <ClCompile Include="StringToInterger.cpp" />
     <ClCompile Include="StringToIntergerTry2.cpp" />
     <ClCompile Include="test.cpp">
@@ -135,6 +136,7 @@
     <ClCompile Include="ThreeSumClosest.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
+    <ClCompile Include="SearchInsertPosition.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ContainerWithMostWater.h" />
@@ -145,6 +147,8 @@
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindrome.h" />
+    <ClInclude Include="SearchforaRange.h" />
+    <ClInclude Include="SearchInsertPosition.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="TestSeg.h" />
     <ClInclude Include="MaxLengthOfSubString.h" />

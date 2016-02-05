@@ -18,6 +18,8 @@
 #include "RemoveElement.h"
 #include "RemoveNthNodeFromEndofList.h"
 #include "RomanToInteger.h"
+#include "SearchforaRange.h"
+#include "SearchInsertPosition.h"
 #include "StringToInterger.h"
 #include "StringToIntergerTry2.h"
 #include "ThreeSum.h"
@@ -53,9 +55,11 @@ int main(int argc, char* argv[])
 	myTestSet.push_back(new ZigZagConversion());
 	myTestSet.push_back(new ImplementstrStr());
 
-	myTestSet.push_back(new ConCreteTestSeg2());
-#else
 	myTestSet.push_back(new ConCreteTestSeg());
+	myTestSet.push_back(new ConCreteTestSeg2());
+	myTestSet.push_back(new SearchInsertPosition());
+#else
+	myTestSet.push_back(new SearchforaRange());
 #endif
 	myMG.Add(myTestSet);
 	myMG.RunAllSeg();

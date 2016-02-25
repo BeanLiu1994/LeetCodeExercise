@@ -90,6 +90,12 @@
     <ClCompile Include="SearchforaRange.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ProductofArrayExceptSelf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainsDuplicate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MaxLengthOfSubString.h">
@@ -171,6 +177,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SearchforaRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductofArrayExceptSelf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainsDuplicate.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

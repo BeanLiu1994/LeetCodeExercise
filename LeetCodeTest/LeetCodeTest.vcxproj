@@ -111,6 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ContainerWithMostWater.cpp" />
+    <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ImplementstrStr.cpp" />
     <ClCompile Include="IntergerReverse.cpp" />
     <ClCompile Include="IntergerToRoman.cpp" />
@@ -121,6 +122,7 @@
     <ClCompile Include="MaxLengthOfSubString.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="ProductofArrayExceptSelf.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
@@ -131,6 +133,7 @@
     <ClCompile Include="StringToIntergerTry2.cpp" />
     <ClCompile Include="test.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="ThreeSumClosest.cpp" />
@@ -140,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ContainerWithMostWater.h" />
+    <ClInclude Include="ContainsDuplicate.h" />
     <ClInclude Include="ImplementstrStr.h" />
     <ClInclude Include="IntergerReverse.h" />
     <ClInclude Include="IntergerToRoman.h" />
@@ -147,6 +151,7 @@
     <ClInclude Include="ListNode.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindrome.h" />
+    <ClInclude Include="ProductofArrayExceptSelf.h" />
     <ClInclude Include="SearchforaRange.h" />
     <ClInclude Include="SearchInsertPosition.h" />
     <ClInclude Include="test.h" />

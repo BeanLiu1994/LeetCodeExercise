@@ -4,6 +4,7 @@
 #include "test.h"
 //solutions
 #include "ContainerWithMostWater.h"
+#include "ContainsDuplicate.h"
 #include "ImplementstrStr.h"
 #include "IntergerReverse.h"
 #include "IntergerToRoman.h"
@@ -13,6 +14,7 @@
 #include "MaxLengthOfSubString.h"
 #include "MergeTwoSortedLists.h"
 #include "PalindromeNumber.h"
+#include "ProductofArrayExceptSelf.h"
 #include "RegularExpressionMatching.h"
 #include "RemoveDuplicatesfromSortedArray.h"
 #include "RemoveElement.h"
@@ -42,11 +44,13 @@ int main(int argc, char* argv[])
 	myTestSet.push_back(new MaxLengthOfSubString());
 	myTestSet.push_back(new MergeTwoSortedLists());
 	myTestSet.push_back(new PalindromeNumber());
+	myTestSet.push_back(new ProductofArrayExceptSelf());
 	myTestSet.push_back(new RegularExpressionMatching());
 	myTestSet.push_back(new RemoveDuplicatesfromSortedArray());
 	myTestSet.push_back(new RemoveElement());
 	myTestSet.push_back(new RemoveNthNodeFromEndofList());
 	myTestSet.push_back(new RomanToInteger());
+	myTestSet.push_back(new SearchforaRange());
 	myTestSet.push_back(new StringToInterger());
 	myTestSet.push_back(new StringToIntergerTry2());
 	myTestSet.push_back(new ThreeSum());
@@ -59,7 +63,8 @@ int main(int argc, char* argv[])
 	myTestSet.push_back(new ConCreteTestSeg2());
 	myTestSet.push_back(new SearchInsertPosition());
 #else
-	myTestSet.push_back(new SearchforaRange());
+	myTestSet.push_back(new ContainsDuplicate());
+
 #endif
 	myMG.Add(myTestSet);
 	myMG.RunAllSeg();

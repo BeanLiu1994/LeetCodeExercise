@@ -22,6 +22,7 @@
 #include "RomanToInteger.h"
 #include "SearchforaRange.h"
 #include "SearchInsertPosition.h"
+#include "SingleNumberII.h"
 #include "StringToInterger.h"
 #include "StringToIntergerTry2.h"
 #include "ThreeSum.h"
@@ -35,6 +36,7 @@ int main(int argc, char* argv[])
 	vector<Solution*> myTestSet;
 #if false
 	myTestSet.push_back(new ContainerWithMostWater());
+	myTestSet.push_back(new ContainsDuplicate());
 	myTestSet.push_back(new ImplementstrStr());
 	myTestSet.push_back(new IntergerReverse());
 	myTestSet.push_back(new IntergerReverse());
@@ -63,7 +65,7 @@ int main(int argc, char* argv[])
 	myTestSet.push_back(new ConCreteTestSeg2());
 	myTestSet.push_back(new SearchInsertPosition());
 #else
-	myTestSet.push_back(new ContainsDuplicate());
+	myTestSet.push_back(new SingleNumberII());
 
 #endif
 	myMG.Add(myTestSet);

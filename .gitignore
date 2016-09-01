@@ -1,0 +1,13 @@
+/*/obj
+/Debug/*
+/Release/*
+/*/Debug/*
+/*/Release/*
+*.sdf
+*.opendb
+*.obj
+*.log
+*.tlog
+*.pdb
+*.idb
+*.db

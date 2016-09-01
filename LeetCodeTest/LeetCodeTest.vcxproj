@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BestTimetoBuyandSellStockwithCooldown.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ImplementstrStr.cpp" />
@@ -129,12 +130,13 @@
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="RomanToInteger.cpp" />
     <ClCompile Include="SearchforaRange.cpp" />
+    <ClCompile Include="SingleNumberII.cpp" />
     <ClCompile Include="StringToInterger.cpp" />
     <ClCompile Include="StringToIntergerTry2.cpp" />
-    <ClCompile Include="test.cpp">
+    <Text Include="test.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    </Text>
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="ThreeSumClosest.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
@@ -142,6 +144,7 @@
     <ClCompile Include="SearchInsertPosition.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BestTimetoBuyandSellStockwithCooldown.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="ContainsDuplicate.h" />
     <ClInclude Include="ImplementstrStr.h" />
@@ -154,6 +157,7 @@
     <ClInclude Include="ProductofArrayExceptSelf.h" />
     <ClInclude Include="SearchforaRange.h" />
     <ClInclude Include="SearchInsertPosition.h" />
+    <ClInclude Include="SingleNumberII.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="TestSeg.h" />
     <ClInclude Include="MaxLengthOfSubString.h" />

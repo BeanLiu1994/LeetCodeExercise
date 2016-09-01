@@ -3,6 +3,7 @@
 #include "TestSeg.h"
 #include "test.h"
 //solutions
+#include "BestTimetoBuyandSellStockwithCooldown.h"
 #include "ContainerWithMostWater.h"
 #include "ContainsDuplicate.h"
 #include "ImplementstrStr.h"
@@ -61,11 +62,12 @@ int main(int argc, char* argv[])
 	myTestSet.push_back(new ZigZagConversion());
 	myTestSet.push_back(new ImplementstrStr());
 
+	myTestSet.push_back(new SingleNumberII());
 	myTestSet.push_back(new ConCreteTestSeg());
 	myTestSet.push_back(new ConCreteTestSeg2());
 	myTestSet.push_back(new SearchInsertPosition());
 #else
-	myTestSet.push_back(new SingleNumberII());
+	myTestSet.push_back(new BestTimetoBuyandSellStockwithCooldown());
 
 #endif
 	myMG.Add(myTestSet);

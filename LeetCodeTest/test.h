@@ -8,7 +8,7 @@ private:
 	//=============================== File Start ===============================
 #include "Solution.h"
 
-	int getPeachNumber(int n)
+	/*int getPeachNumber(int n)
 	{
 		if (n == 10)
 		{
@@ -25,6 +25,26 @@ private:
 	{
 		int num = getPeachNumber(1);
 		cout << "猴子第一天摘了:" << num << "个桃子。" << endl;
+		return 0;
+	}*/
+	class aaa
+	{
+	public: virtual void a(float) { cout << "aaa int" << endl; }
+			virtual void a(aaa*) { cout << "aaa aaa" << endl; }
+	};
+	class bbb :public aaa
+	{
+	public: void a(float) { cout << "bbb int" << endl; }
+	};
+	int main()
+	{
+		aaa *a;
+		a = new aaa();
+		a->a(1);
+		a = new bbb();
+		a->a(1);
+		bbb b;
+		b.a(1);
 		return 0;
 	}
 	//================================ File End ================================
